@@ -12,9 +12,16 @@ It allows you to interact with a Linux shell through natural language prompts, w
 
 ---
 
+All dependencies are listed in [`requirements.txt`](requirements.txt).  
+To install them:
+```bash
+pip install -r requirements.txt
+```
+
 ## ⚠️ Important
 The script currently contains a **hardcoded Google API Key**.  
 For security, you **must** set it as an environment variable instead of storing it in the code.
 
 ```bash
 export GOOGLE_API_KEY="your_api_key_here"
+
